@@ -55,7 +55,7 @@ export default function TodoList() {
 
     return (
         <div className={`app-container ${darkMode ? "dark-mode" : "light-mode"}`}>
-            <h2>To-Do List</h2>
+            <h2>task manager</h2>
             <div className="command-bar">
                 <input
                     type="text"

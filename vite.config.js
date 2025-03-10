@@ -1,5 +1,7 @@
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
 export default defineConfig({
-     base: "/appdev-todo-list/",
-     plugins: [react()],
-   });
-   
+  base: "/appdev-todo-list/",
+  plugins: [react()],
+});
